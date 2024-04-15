@@ -41,6 +41,7 @@ export class AuthResponse {
   token: string;
   permissions: string[];
   role?: string;
+  user?: string[];
 }
 export class CoreResponse extends CoreMutationOutput {}
 export class VerifyOtpDto {
